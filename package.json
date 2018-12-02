@@ -1,10 +1,11 @@
 {
     "name": "qml-snippets",
     "displayName": "QML Snippets",
-    "description": "QML Snippets to presented by IntelliSense to simplify typing.",
+    "description": "QML code snippets used by IntelliSense to simplify typing.",
+
     "icon": "images/qt-logo.png",
 
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "SEE LICENSE IN LICENSE.md",
     "publisher": "patrickelectric",
     "engines": { "vscode": "0.10.x" },
