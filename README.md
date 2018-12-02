@@ -2,15 +2,13 @@
 
 This extension for Visual Studio Code adds snippets for the [QML](http://www.qt.io/) language (Qt Meta-object Language).
 
-The extension is based on the Sublime QML extension by Sergey Kozlov:<br />
-https://github.com/skozlovf/Sublime-QML
+The extension is based on the Sublime QML extension by Sergey Kozlov: https://github.com/ThomasVogelpohl/vsc-qml-snippets
 
 ![Use Extension](images/animationSnippets.gif)
 
 ## Prerequisites:
 The qml file extension needs to be registered as a known file type with VSCode.
-The easiest way is to use the QML language syntax extension from Baptist BENOIST: <br />
-https://github.com/bbenoist/vscode-qml
+The easiest way is to use the QML language syntax extension from Baptist BENOIST: https://github.com/bbenoist/vscode-qml
 
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
@@ -27,7 +25,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 |anchors.margins         |	anchors.margins: 0
 |anchors.verticalCenter  |	anchors.verticalCenter: parent.verticalCenter
 |color                   |	color: \"#\"
-|component.onCompleted:  |	Component.onCompleted: 
+|component.onCompleted:  |	Component.onCompleted:
 |connections             |	Connections {\n    target: \n    on \n
 |console.log             |	console.log(" :")
 |console.log + var       |	console.log(" :" + var)
@@ -43,5 +41,3 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 |Rectangle               |	Rectangle {<br />&nbsp;    width: 10<br />&nbsp;    height: 10<br />&nbsp;    color: transparent<br />}
 |signal                  |	signal name()
 |stack.onStatusChanged   |	Stack.onStatusChanged: {<br />&nbsp;    if (Stack.status == Stack.Active)<br />&nbsp;&nbsp;        ;<br />&nbsp;    else if (Stack.status == Stack.Inactive)<br />&nbsp;&nbsp; ;<br />}
-
-
