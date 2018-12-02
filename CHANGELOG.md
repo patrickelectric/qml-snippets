@@ -1,3 +1,17 @@
+0.0.4
+=====
+
+## What's New
+- Update README GIF.
+
+
+0.0.3
+=====
+
+## What's New
+- Update README and wrong new line when hitting enter.
+
+
 0.0.2
 =====
 
