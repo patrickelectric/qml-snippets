@@ -1,12 +1,12 @@
 {
-    "name": "vsc-qml-snippets",
+    "name": "qml-snippets",
     "displayName": "QML Snippets",
     "description": "QML Snippets to presented by IntelliSense to simplify typing.",
     "icon": "images/qt-logo.png",
 
     "version": "0.0.1",
     "license": "SEE LICENSE IN LICENSE.md",
-    "publisher": "ThomasVogelpohl",
+    "publisher": "patrickelectric",
     "engines": { "vscode": "0.10.x" },
     "categories": [
         "Snippets"
@@ -19,13 +19,12 @@
             }
         ]
     },
-    "homepage": "https://github.com/ThomasVogelpohl/vsc-qml-snippets",
+    "homepage": "https://github.com/patrickelectric/qml-snippets",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ThomasVogelpohl/vsc-qml-snippets"
+        "url": "https://github.com/patrickelectric/qml-snippets"
     },
     "bugs": {
-		"url": "https://github.com/ThomasVogelpohl/vsc-qml-snippets/issues",
-		"email": "thomas.vogelpohl@freenet.de"
+		"url": "https://github.com/patrickelectric/qml-snippets/issues"
 	}
 }
