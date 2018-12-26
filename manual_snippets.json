@@ -1,0 +1,86 @@
+{
+    "alias": {
+		"prefix": "alias",
+		"body": "\nproperty alias ${1:name}: ${2:val}\n",
+		"description": "QML property alias",
+		"scope": "source.qml"
+    },
+    "anchors": {
+		"prefix": "anchors",
+		"body": "\nanchors.${1}: ${2:parent}.${3}\n",
+		"description": "(simple)",
+		"scope": "source.qml"
+	},
+	"anchors (all sides)": {
+		"prefix": "anchors",
+		"body": "\nanchors.left: ${1:parent}.left\nanchors.top: ${1:parent}.top\nanchors.right: ${1:parent}.right\nanchors.bottom: ${1:parent}.bottom\n",
+		"description": "(all sides)",
+		"scope": "source.qml"
+	},
+	"anchors.centerIn": {
+		"prefix": "anchors.centerIn",
+		"body": "\nanchors.centerIn: ${1:parent}\n",
+		"description": "centerIn",
+		"scope": "source.qml"
+	},
+	"anchors.fill": {
+		"prefix": "anchors.fill",
+		"body": "\nanchors.fill: ${1:parent}\n",
+		"description": "fill",
+		"scope": "source.qml"
+	},
+	"anchors.horizontalCenter": {
+		"prefix": "anchors.horizontalCenter",
+		"body": "\nanchors.horizontalCenter: ${1:parent}.horizontalCenter\n",
+		"description": "horizontal",
+		"scope": "source.qml"
+	},
+	"anchors.margins": {
+		"prefix": "anchors.margins",
+		"body": "\nanchors.margins: ${1:0}\n",
+		"description": "margins",
+		"scope": "source.qml"
+	},
+	"anchors.verticalCenter": {
+		"prefix": "anchors.verticalCenter",
+		"body": "\nanchors.verticalCenter: ${1:parent}.verticalCenter\n",
+		"description": "vertical",
+		"scope": "source.qml"
+    },
+    "color": {
+		"prefix": "color",
+		"body": "\ncolor: \"#${1}\"\n",
+		"description": "#...",
+		"scope": "source.qml"
+	},
+    "function": {
+        "prefix": "function",
+        "body": "function ${1:function_name}(${2:argument}) {\n    ${0:// body...}\n}",
+        "description": "function() {}",
+        "scope": "source.qml"
+    },
+    "layout": {
+		"prefix": "layout",
+		"body": "\nLayout.fillWidth: ${1:true}\nLayout.fillHeight: ${2:true}\n",
+		"description": "(all)",
+		"scope": "source.qml"
+	},
+	"layout.fillHeight": {
+		"prefix": "layout.fillHeight",
+		"body": "\nLayout.fillHeight: ${1:true}\n",
+		"description": "height",
+		"scope": "source.qml"
+	},
+	"layout.fillWidth": {
+		"prefix": "layout.fillWidth",
+		"body": "\nLayout.fillWidth: ${1:true}\n",
+		"description": "width",
+		"scope": "source.qml"
+	},
+    "property": {
+        "prefix": "property",
+        "body": "property ${1:var} ${2:name}\n",
+        "description": "QML property",
+        "scope": "source.qml"
+    }
+}
