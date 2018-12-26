@@ -1,3 +1,13 @@
+0.0.5
+=====
+
+## What's New
+- Add more manual snippets.
+- Update style.
+- Move to Qt 5.12
+- Add python script
+
+
 0.0.4
 =====
 
